@@ -1,0 +1,119 @@
+<!doctype html>
+
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Div Tag Template</title>
+	<style>
+		body {
+			background: aquamarine;
+			font: 100% Arial, Times, serif;
+		}
+		h1 {
+			font: 314% Arial, Times, Helvetica;
+			color: blue;
+		}
+		h2 {
+			font: 200% Helvetica, Times, Arial;
+			color: BlueViolet;
+		}
+		p {
+			font: 150% Times, Helvetica, Arial;
+			color: MidnightBlue;
+		}
+		#wrapper {
+			width: 1100px;
+			margin: 0 auto;
+			padding: 0 50px;
+			text-align: left;
+			position: relative;
+		}
+		#mainHeader {
+			height: 185px;
+			background: url (Images/logo.png) no-repeat 25px center;
+			padding: 0 75px 0 300px;
+			position: relative;
+			border-bottom: 2px solid #7f7f7f;
+			margin-bottom:16px;
+		}
+		#mainHeader div{
+			margin-top: 16 px;
+		}
+		#mainHeader ul{
+			list-style: none;
+			float: left;
+		}
+		#mainHeader ul li {
+			float: left;
+		}
+		#mainHeader ul li a{
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:20px;
+			color: #000;
+			padding: 0 20px;
+			border-right: 1px solid black;
+			text-decoration: none;
+		}
+		#mainHeader ul li a.last{
+			border:none;
+		}
+		#mainHeader ul li a:hover{
+			color: #c00000;
+		}
+	</style>
+	
+</head>
+
+<body>
+
+<!--Page Content wrapper -->
+<div id="wrapper">
+
+	<!-- page header - logo, title, links -->
+	<div id="mainHeader">
+		<h1>Exploring Computer Science</h1>
+		<h2>My collection of Programming Projects and Assignments</h2>
+		<!-- site Navigation links -->
+		<div id="mainNav">
+			<ul id="pages">
+				<li>
+					<a href="#" >Scratch</a>
+				</li>
+				<li>
+					<a href="#" >Python</a>
+				</li>
+				<li>
+					<a href="#" >Java</a>
+				</li>
+				<li>
+					<a href="#" >Final Project</a>
+				</li>
+				<li>
+					<a href="#" >Home</a>
+				</li>
+			</ul>
+		</div> <!-- end header -->
+		
+		<!-- Section Content -->
+		<div id="content">
+			<p>Replace this text with project and assignment examples</p>
+		</div><!-- end Content-->
+
+			<!--Aside Content -->
+		<div id="hobbies">
+			<p>Place things you like here; photos, links, videos, etc.</p>
+		</div> <!-- end Hobbies-->
+			
+		<!--Footer Content-->
+		<div id="pageFooter">
+			<p>author, contact info, copyright</p>
+		</div><!-- end Footer -->
+		
+	</div><!--end wrapper -->
+
+</body>
+
+
+
+</html>
