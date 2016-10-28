@@ -12,6 +12,10 @@ body {
 			font: 200% Helvetica, Times, Arial;
 			color: BlueViolet;
 		}
+		h3{
+			font: 175% Arial, Times, Helvetica;
+			color: black;
+		}
 		p {
 			font: 150% Times, Helvetica, Arial;
 			color: MidnightBlue;
